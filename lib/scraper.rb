@@ -1,6 +1,6 @@
 
 
-<<<<<<< HEAD
+#<<<<<<< HEAD
 
 =======
 >>>>>>> 20fa4da8255e801a5f1311490258149a74625ae3
@@ -13,7 +13,7 @@ class Scraper
 
 
   def self.scrape_index_page(index_url)
-<<<<<<< HEAD
+#<<<<<<< HEAD
 
     doc = Nokogiri::HTML(open(index_url))
     students = Array.new
@@ -30,7 +30,7 @@ class Scraper
 
 
   def self.scrape_profile_page(profile_url)
-=======
+#=======
     
     students_hash = []
     
@@ -65,7 +65,7 @@ class Scraper
       students_hash[:bio] = html.css("div.bio-content p").text
     students_hash
   end
->>>>>>> 20fa4da8255e801a5f1311490258149a74625ae3
+#>>>>>>> 20fa4da8255e801a5f1311490258149a74625ae3
 
     doc = Nokogiri::HTML(open(profile_url))
 	   student = Hash.new
