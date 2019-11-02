@@ -2,8 +2,8 @@
 
 #<<<<<<< HEAD
 
-=======
->>>>>>> 20fa4da8255e801a5f1311490258149a74625ae3
+#=======
+#>>>>>>> 20fa4da8255e801a5f1311490258149a74625ae3
 require 'nokogiri'
 require 'open-uri'
 require 'pry'
